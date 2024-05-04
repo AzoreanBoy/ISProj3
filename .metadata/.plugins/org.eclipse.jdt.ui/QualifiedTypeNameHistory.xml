@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.jms.JMSProducer"/>
+    <fullyQualifiedTypeName name="javax.jms.ConnectionFactory"/>
+    <fullyQualifiedTypeName name="javax.jms.Destination"/>
+    <fullyQualifiedTypeName name="javax.naming.NamingException"/>
+    <fullyQualifiedTypeName name="javax.naming.InitialContext"/>
+    <fullyQualifiedTypeName name="javax.jms.JMSContext"/>
+    <fullyQualifiedTypeName name="javax.jms.JMSConsumer"/>
+    <fullyQualifiedTypeName name="javax.jms.JMSRuntimeException"/>
+</qualifiedTypeNameHistroy>

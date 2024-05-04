@@ -1,0 +1,25 @@
+Projeto 3 de IS - MOM
+
+------ Criar a diretoria do novo Ficheiro --------
+mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-simple -DarchetypeVersion=1.4 -DgroupId=book -DartifactId=jmstutorial -Dversion=1 -DinteractiveMode=false
+
+--- Criar dentro da pasta do src/main/resources um ficheiro jndi.properties
+
+
+KAFTA Message
+
+-------- Criação do Projeto Kafta e Kafta Streams ---------
+-> mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-simple -DarchetypeVersion=1.4 -DgroupId=book -DartifactId=KafkaStreams -Dversion=1.0-SNAPSHOT -DinteractiveMode=false
+
+
+mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-simple -DarchetypeVersion=1.4 -DgroupId=book -DartifactId=DirectorNode -Dversion=1 -DinteractiveMode=false
+
+
+
+<---Ligar o Servidor--->
+bin\standalone.bat --server-config=standalone-full.xml
+
+
+
+<---Compilar o trabalho no servidor--->
+mvn clean package -Doutput=C:\Users\pedro\wildfly-26.1.2.Final\standalone\deployments

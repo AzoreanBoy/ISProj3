@@ -1,0 +1,78 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 19
+Class-Path: lib/wildfly-client-properties-26.1.2.Final.jar lib/netty-buf
+ fer-4.1.79.Final.jar lib/netty-codec-4.1.79.Final.jar lib/netty-codec-h
+ ttp-4.1.79.Final.jar lib/netty-codec-socks-4.1.79.Final.jar lib/netty-c
+ ommon-4.1.79.Final.jar lib/netty-handler-4.1.79.Final.jar lib/netty-han
+ dler-proxy-4.1.79.Final.jar lib/netty-resolver-4.1.79.Final.jar lib/net
+ ty-transport-4.1.79.Final.jar lib/netty-transport-native-unix-common-4.
+ 1.79.Final.jar lib/netty-transport-native-unix-common-4.1.79.Final-linu
+ x-x86_64.jar lib/netty-transport-native-unix-common-4.1.79.Final-linux-
+ aarch_64.jar lib/netty-transport-classes-epoll-4.1.79.Final.jar lib/net
+ ty-transport-native-epoll-4.1.79.Final-linux-x86_64.jar lib/netty-trans
+ port-native-epoll-4.1.79.Final-linux-aarch_64.jar lib/netty-transport-c
+ lasses-kqueue-4.1.79.Final.jar lib/artemis-hqclient-protocol-2.19.1.jar
+  lib/artemis-core-client-2.19.1.jar lib/jgroups-4.2.21.Final.jar lib/ne
+ tty-transport-native-kqueue-4.1.79.Final-osx-x86_64.jar lib/artemis-com
+ mons-2.19.1.jar lib/commons-beanutils-1.9.4.jar lib/commons-collections
+ -3.2.2.jar lib/artemis-jms-client-2.19.1.jar lib/jakarta.jms-api-2.0.3.
+ jar lib/artemis-selector-2.19.1.jar lib/jboss-jms-api_2.0_spec-2.0.0.Fi
+ nal.jar lib/wildfly-naming-client-1.0.15.Final.jar lib/wildfly-common-1
+ .6.0.Final.jar lib/wildfly-client-config-1.0.1.Final.jar lib/wildfly-el
+ ytron-auth-1.19.1.Final.jar lib/wildfly-elytron-auth-server-1.19.1.Fina
+ l.jar lib/wildfly-elytron-base-1.19.1.Final.jar lib/wildfly-elytron-x50
+ 0-1.19.1.Final.jar lib/wildfly-elytron-client-1.19.1.Final.jar lib/wild
+ fly-elytron-auth-util-1.19.1.Final.jar lib/wildfly-elytron-mechanism-gs
+ sapi-1.19.1.Final.jar lib/sshd-common-2.7.0.jar lib/wildfly-elytron-cre
+ dential-source-impl-1.19.1.Final.jar lib/wildfly-elytron-credential-sto
+ re-1.19.1.Final.jar lib/wildfly-elytron-keystore-1.19.1.Final.jar lib/w
+ ildfly-elytron-mechanism-1.19.1.Final.jar lib/wildfly-elytron-http-1.19
+ .1.Final.jar lib/wildfly-elytron-password-impl-1.19.1.Final.jar lib/wil
+ dfly-elytron-provider-util-1.19.1.Final.jar lib/wildfly-elytron-sasl-1.
+ 19.1.Final.jar lib/wildfly-elytron-ssl-1.19.1.Final.jar lib/wildfly-ely
+ tron-x500-cert-1.19.1.Final.jar lib/wildfly-elytron-x500-cert-util-1.19
+ .1.Final.jar lib/wildfly-elytron-credential-1.19.1.Final.jar lib/wildfl
+ y-elytron-asn1-1.19.1.Final.jar lib/wildfly-elytron-security-manager-ac
+ tion-1.19.1.Final.jar lib/wildfly-elytron-security-manager-1.19.1.Final
+ .jar lib/wildfly-elytron-permission-1.19.1.Final.jar lib/wildfly-elytro
+ n-realm-1.19.1.Final.jar lib/wildfly-elytron-encryption-1.19.1.Final.ja
+ r lib/wildfly-elytron-sasl-anonymous-1.19.1.Final.jar lib/wildfly-elytr
+ on-sasl-localuser-1.19.1.Final.jar lib/wildfly-elytron-sasl-auth-util-1
+ .19.1.Final.jar lib/wildfly-elytron-util-1.19.1.Final.jar lib/jboss-log
+ ging-3.4.3.Final.jar lib/jboss-marshalling-2.0.12.Final.jar lib/jboss-m
+ arshalling-river-2.0.12.Final.jar lib/jboss-remoting-5.0.25.Final.jar l
+ ib/wildfly-elytron-1.19.1.Final.jar lib/wildfly-elytron-audit-1.19.1.Fi
+ nal.jar lib/wildfly-elytron-auth-server-deprecated-1.19.1.Final.jar lib
+ /wildfly-elytron-auth-server-http-1.19.1.Final.jar lib/wildfly-elytron-
+ auth-server-sasl-1.19.1.Final.jar lib/wildfly-elytron-digest-1.19.1.Fin
+ al.jar lib/wildfly-elytron-http-basic-1.19.1.Final.jar lib/wildfly-elyt
+ ron-http-bearer-1.19.1.Final.jar lib/wildfly-elytron-http-cert-1.19.1.F
+ inal.jar lib/wildfly-elytron-http-digest-1.19.1.Final.jar lib/wildfly-e
+ lytron-http-external-1.19.1.Final.jar lib/wildfly-elytron-http-form-1.1
+ 9.1.Final.jar lib/wildfly-elytron-http-oidc-1.19.1.Final.jar lib/httpcl
+ ient-4.5.13.jar lib/httpcore-4.4.15.jar lib/commons-codec-1.15.jar lib/
+ jose4j-0.7.11.jar lib/wildfly-elytron-http-spnego-1.19.1.Final.jar lib/
+ wildfly-elytron-http-sso-1.19.1.Final.jar lib/wildfly-elytron-http-util
+ -1.19.1.Final.jar lib/wildfly-elytron-jacc-1.19.1.Final.jar lib/wildfly
+ -elytron-jaspi-1.19.1.Final.jar lib/wildfly-elytron-json-util-1.19.1.Fi
+ nal.jar lib/wildfly-elytron-jose-jwk-1.19.1.Final.jar lib/jackson-annot
+ ations-2.12.7.jar lib/wildfly-elytron-jose-util-1.19.1.Final.jar lib/ja
+ ckson-core-2.12.7.jar lib/jackson-databind-2.12.7.jar lib/wildfly-elytr
+ on-mechanism-digest-1.19.1.Final.jar lib/wildfly-elytron-mechanism-http
+ -1.19.1.Final.jar lib/wildfly-elytron-mechanism-oauth2-1.19.1.Final.jar
+  lib/wildfly-elytron-mechanism-scram-1.19.1.Final.jar lib/wildfly-elytr
+ on-realm-jdbc-1.19.1.Final.jar lib/wildfly-elytron-realm-ldap-1.19.1.Fi
+ nal.jar lib/wildfly-elytron-realm-token-1.19.1.Final.jar lib/wildfly-el
+ ytron-sasl-digest-1.19.1.Final.jar lib/wildfly-elytron-sasl-entity-1.19
+ .1.Final.jar lib/wildfly-elytron-sasl-external-1.19.1.Final.jar lib/wil
+ dfly-elytron-sasl-gs2-1.19.1.Final.jar lib/wildfly-elytron-sasl-gssapi-
+ 1.19.1.Final.jar lib/wildfly-elytron-sasl-oauth2-1.19.1.Final.jar lib/w
+ ildfly-elytron-sasl-otp-1.19.1.Final.jar lib/wildfly-elytron-sasl-plain
+ -1.19.1.Final.jar lib/wildfly-elytron-sasl-scram-1.19.1.Final.jar lib/w
+ ildfly-elytron-x500-cert-acme-1.19.1.Final.jar lib/wildfly-elytron-x500
+ -principal-1.19.1.Final.jar lib/xnio-api-3.8.7.Final.jar lib/xnio-nio-3
+ .8.7.Final.jar lib/jboss-threads-2.4.0.Final.jar lib/jakarta.json-api-1
+ .1.6.jar lib/jakarta.json-1.1.6.jar lib/jcl-over-slf4j-1.7.36.jar lib/s
+ lf4j-api-1.7.36.jar
+Created-By: Maven Integration for Eclipse
+
